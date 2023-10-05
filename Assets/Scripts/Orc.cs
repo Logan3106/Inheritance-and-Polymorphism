@@ -21,7 +21,7 @@ public class Orc : Enemy
     protected override void LookAtPlayer()
     {
         print("Orc is looking at player now");
-        print(enemyPower);
-        print(enemyHealth);
+        print("orc power = " + enemyPower);
+        print("orc health = " + enemyHealth);
     }
 }

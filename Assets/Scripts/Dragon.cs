@@ -23,7 +23,7 @@ public class Dragon : Enemy
     protected override void LookAtPlayer()
     {
         print("Dragon is looking at player now");
-        print(enemyPower);
-        print(enemyHealth);
+        print("dragon power = " + enemyPower);
+        print("dragon health = " + enemyHealth);
     }
 }
